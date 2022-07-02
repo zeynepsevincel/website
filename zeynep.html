@@ -3,7 +3,33 @@
 <head>
 
     <style>
-       @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+        @font-face {
+              font-family: "hello_denver_display_regulaRg";
+              src: url('Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff2') 
+                format('woff2'),
+              url('Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff') 
+                format('woff');
+              font-weight: large;
+              font-style: large;
+              }
+              h1{
+            letter-spacing: 7px;
+                text-transform: uppercase;
+                font-family: "hello_denver_display_regulaRg";
+                text-shadow: 5px 5px #911A24;
+                margin-top: 170px;
+                margin-bottom: 170px;
+                font-size: 120px;
+                position: relative;
+                text-align: center;
+                animation: enterscreen 3s 1;
+              }
+        @keyframes enterscreen {
+                0% {left: 100%;}
+                100% {left: 0%;}
+            
+        }
+      
 
     </style>
 
@@ -11,6 +37,11 @@
     <title>Welcome!</title>
 </body>
 
+
+<body>
+<h1><center>WELCOME!</center></h1>
+
+</body>
 
 
 </head>
