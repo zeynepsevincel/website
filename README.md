@@ -1,2 +1,2 @@
-# webiste
+# website
 creating a website
